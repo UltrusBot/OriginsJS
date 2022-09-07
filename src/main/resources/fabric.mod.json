@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "templatemod",
+  "id": "originsjs",
   "version": "${version}",
 
-  "name": "Template Mod",
-  "description": "This mod is a template mod by UltrusBot, if you see this description, I am a fool.",
+  "name": "OriginsJS",
+  "description": "This mod adds origins integration to kubejs",
   "authors": [
     "UltrusBot"
   ],
   "contact": {
     "homepage": "https://www.ultrusmods.me/",
-    "sources": "https://github.com/UltrusBot/UltrusModTemplate",
-    "issues": "https://github.com/UltrusBot/UltrusModTemplate/issues"
+    "sources": "https://github.com/UltrusBot/OriginsJS",
+    "issues": "https://github.com/UltrusBot/OriginsJS/issues"
   },
 
   "license": "MIT",
-  "icon": "assets/templatemod/icon.png",
+  "icon": "assets/originsjs/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.ultrusmods.templatemod.ExampleMod"
+      "me.ultrusmods.originsjs.OriginsJsMod"
     ]
   },
   "mixins": [
-    "templatemod.mixins.json"
+    "originsjs.mixins.json"
   ],
 
   "depends": {
